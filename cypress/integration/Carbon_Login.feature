@@ -22,6 +22,13 @@ Feature: Carbon application login functionality
     Then I see a warning box with content "$:EMPTY_PASSWORD_WARNING_MESSAGE:$"
 
   @focus
+  Scenario: Try to login without enterning username and password
+    When I navigate to "$:CARBON_APPLICATION_LOGIN_PAGE_URL:$"
+    And I enter usename as "$:VALID_USERNAME_CARBON_APP_1:$"
+    And I click Sign-in button
+    Then I see a warning box with content "$:EMPTY_USERNAME_AND_PASSWORD_WARNING_MESSAGE:$"
+
+  @focus
   Scenario: Try to login with invalid credentials
     When I navigate to "$:CARBON_APPLICATION_LOGIN_PAGE_URL:$"
     And I enter usename as "$:INVALID_USERNAME_CARBON_APP_1:$"

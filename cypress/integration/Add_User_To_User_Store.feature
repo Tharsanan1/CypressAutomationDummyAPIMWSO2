@@ -27,7 +27,7 @@ Feature: Carbon application add user to user store functionality.
         Then I see a warning box with content "$:PATTER_POLICY_VIOLATED_WARNING_MESSAGE:$"
 
     @focus
-    Scenario: Add user with small user name.
+    Scenario: Add user with very small user name.
         Given I am logged into carbon application with default user credentials
         And I click on carbon side bar "Main > User and Roles > Add" button
         And I click on add new user button

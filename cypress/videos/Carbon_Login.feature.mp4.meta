@@ -1,0 +1,26 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=2020
+END=10345
+title=Carbon application login functionality Login with valid credentials.
+[CHAPTER]
+TIMEBASE=1/1000
+START=18007
+END=18808
+title=Carbon application login functionality Try to login without enterning username and password
+[CHAPTER]
+TIMEBASE=1/1000
+START=18449
+END=19613
+title=Carbon application login functionality Try to login without enterning password
+[CHAPTER]
+TIMEBASE=1/1000
+START=19659
+END=20780
+title=Carbon application login functionality Try to login without enterning username and password
+[CHAPTER]
+TIMEBASE=1/1000
+START=20050
+END=21904
+title=Carbon application login functionality Try to login with invalid credentials
